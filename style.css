@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    
+ 
+}
+
+.pf { 
+    margin-top: 30px;
+    padding: 20px;
+    background-image: url(pozadi3.jpg);
+}
+
+
+
+@keyframes barvahvezdy {
+    0% {fill:black;}
+    50% {fill: gold;}
+    100% {fill: goldenrod;}
+  }
+  
+  #sklenka {
+    animation: barvahvezdy 30s 1 both linear;
+  }
+
+  #hvezda1 {
+    animation: barvahvezdy 3s infinite both linear;
+  }
+
+  #hvezda2 {
+    animation: barvahvezdy 5s infinite both linear;
+  }
+
+  #hvezda3 {
+    animation: barvahvezdy 9s infinite both linear;
+  }
+
+ 
