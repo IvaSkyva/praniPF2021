@@ -5,25 +5,32 @@ body {
 }
 
 .pf { 
-    margin-top: 30px;
+    
     padding: 20px;
     background-image: url(pozadi3.jpg);
+    background-size: contain;
 }
 
 
 
-@keyframes barvahvezdy {
+@keyframes barvasklenky {
     0% {fill:black;}
-    50% {fill: gold;}
+    80% {fill: gold;}
     100% {fill: goldenrod;}
   }
   
   #sklenka {
-    animation: barvahvezdy 40s 1 both linear;
+    animation: barvasklenky 50s 1 both linear;
+  }
+
+  @keyframes barvahvezdy {
+    0% {fill:black;}
+    50% {fill: gold;}
+    100% {fill: goldenrod;}
   }
 
   #hvezda1 {
-    animation: barvahvezdy 3s infinite both linear;
+    animation: barvahvezdy 2s infinite both linear;
   }
 
   #hvezda2 {
@@ -31,7 +38,7 @@ body {
   }
 
   #hvezda3 {
-    animation: barvahvezdy 9s infinite both linear;
+    animation: barvahvezdy 7s infinite both linear;
   }
 
  
